@@ -263,10 +263,27 @@ display: flex;
 	margin-left: -30px;
 }
 .work-item {
+	position: relative;
 	flex-basis: calc((100% / 3) -30px);
 	margin-left: 30px;
 }
 
+.works-text {
+	position: absolute;
+	bottom: 0;
+	display: block;
+	width: 100%;
+	padding: 27px;
+
+	background: rgba(47, 48, 58, 0.8);
+
+	font-weight: 700;
+	line-height: 1.14;
+	text-align: center;
+	text-transform: uppercase;
+	
+	color: var(--secondary-color);
+}
 
 /* Our team */
 .team-section {
