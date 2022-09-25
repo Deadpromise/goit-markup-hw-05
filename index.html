@@ -51,7 +51,7 @@
 			<!-- Hero section -->
 			<section class="hero-sect hero-bg">
 				<h1 class="hero-header">Ефективні рішення для вашого бізнесу</h1>
-				<button class="basic-button hero-button" type="button">Замовити послугу</button>
+				<button class="basic-button hero-button" type="button" data-modal-open>Замовити послугу</button>
 			</section>
 			<!-- Qualities -->
 			<section class="section-qual">
@@ -261,5 +261,13 @@
 				</div>
 			</div>
 		</footer>
+		<!-- Modal -->
+		<div class="backdrop is-hidden" data-modal>
+			<div class="modal"><button type="button" class="close-button" data-modal-close>
+				<svg width="18px" height="18px">
+			<use href="./images/symbol-defs.svg#icon-close"></use></svg>
+		</button></div>
+		</div>
+		<script src="./js/modal.js"></script>
 	</body>
 </html>
